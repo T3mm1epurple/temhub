@@ -15,7 +15,7 @@ if game.PlaceId == 3057425443 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/aawtiymns/main/script", true))()
 end
 
-if game.PlaceId == 9772878203 then
+if game.PlaceId == 9772878203 or game.PlaceId == 9921522947 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/floppa/main/script", true))()
 end
 end
