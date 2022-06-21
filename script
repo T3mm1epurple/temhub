@@ -1,4 +1,4 @@
-if _G.key == "test" then
+if _G.key == "goofball" then
 local dabsplaces = {4050215579, 4472538305, 468442797, 5248557397, 4684427971}
 
 for x, c in pairs (dabsplaces) do
