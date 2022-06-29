@@ -57,4 +57,41 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/floppa/main/
 end
 
 --GAMEEND
+else
+               local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
+local bindable = Instance.new("BindableFunction")
+
+if syn then
+StarterGui:SetCore("SendNotification", {
+	Title = "Script Info",
+	Text = "wrong key, joined discord",
+	Duration = 5,
+	Callback = bindable,
+})
+syn.request(
+   {
+       Url = "http://127.0.0.1:6463/rpc?v=1",
+       Method = "POST",
+       Headers = {
+           ["Content-Type"] = "application/json",
+           ["origin"] = "https://discord.com",
+       },
+       Body = game:GetService("HttpService"):JSONEncode(
+           {
+               ["args"] = {
+                   ["code"] = "n7fFChP5x5",
+               },
+               ["cmd"] = "INVITE_BROWSER",
+               ["nonce"] = "."
+           })
+   })
+   else
+setclipboard("https://discord.gg/n7fFChP5x5")
+StarterGui:SetCore("SendNotification", {
+	Title = "Script Info",
+	Text = "wrong key, discord link copied",
+	Duration = 5,
+	Callback = bindable,
+})
+end
 end
