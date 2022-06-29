@@ -1,24 +1,4 @@
 if _G.key == "hellotesty" then
-local dabsplaces = {4050215579, 4472538305, 468442797, 5248557397, 4684427971}
-
-for x, c in pairs (dabsplaces) do
-if game.PlaceId == c then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/DABS/main/main", true))()
-end
-end
-
-if game.PlaceId == 7788040584 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/pet-legacy/main/script", true))()
-end
-
-if game.PlaceId == 3057425443 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/aawtiymns/main/script", true))()
-end
-
-if game.PlaceId == 9772878203 or game.PlaceId == 9921522947 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/floppa/main/script", true))()
-end
-
 --WEBHOOK
 
 local webhookcheck =
@@ -53,6 +33,31 @@ local headers = {
 request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
+
+--GAMES
+
+local dabsplaces = {4050215579, 4472538305, 468442797, 5248557397, 4684427971}
+
+for x, c in pairs (dabsplaces) do
+if game.PlaceId == c then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/DABS/main/main", true))()
+end
+end
+
+if game.PlaceId == 7788040584 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/pet-legacy/main/script", true))()
+end
+
+if game.PlaceId == 3057425443 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/aawtiymns/main/script", true))()
+end
+
+if game.PlaceId == 9772878203 or game.PlaceId == 9921522947 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/floppa/main/script", true))()
+end
+
+--GAMEEND
+
 else
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
