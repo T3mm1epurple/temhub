@@ -1,6 +1,6 @@
-if _G.key == "hellotesty" then
-local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
+local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
+if _G.key == "hellotesty" then
 StarterGui:SetCore("SendNotification", {
 	Title = "Credits",
 	Text = "created by Forxsion#4954",
