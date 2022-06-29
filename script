@@ -1,4 +1,12 @@
 if _G.key == "hellotesty" then
+local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
+local bindable = Instance.new("BindableFunction")
+StarterGui:SetCore("SendNotification", {
+	Title = "Credits",
+	Text = "created by Forxsion#4954",
+	Duration = 5,
+	Callback = bindable,
+})
 --WEBHOOK
 
 local webhookcheck =
@@ -58,8 +66,6 @@ end
 
 --GAMEEND
 else
-               local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
-local bindable = Instance.new("BindableFunction")
 
 if syn then
 StarterGui:SetCore("SendNotification", {
