@@ -1,5 +1,6 @@
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
+_G.no = "imagine"
 if _G.key == "hellotesty" then
 _G.no = "X1oKFNIEONFEKLFNWL"
 StarterGui:SetCore("SendNotification", {
