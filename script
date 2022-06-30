@@ -1,6 +1,7 @@
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 if _G.key == "hellotesty" then
+_G.no = "X1oKFNIEONFEKLFNWL"
 StarterGui:SetCore("SendNotification", {
 	Title = "Credits",
 	Text = "created by Forxsion#4954",
