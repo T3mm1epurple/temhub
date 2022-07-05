@@ -1,7 +1,7 @@
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 _G.no = "imagine"
-if _G.key == "hellotesty" then
+if _G.key == "channel!!#" then
 _G.no = "X1oKFNIEONFEKLFNWL"
 StarterGui:SetCore("SendNotification", {
 	Title = "Credits",
