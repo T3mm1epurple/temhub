@@ -1,7 +1,7 @@
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 _G.no = "imagine"
-if _G.key == "channel!!#" then
+if _G.key == "goof23" then
 _G.no = "X1oKFNIEONFEKLFNWL"
 StarterGui:SetCore("SendNotification", {
 	Title = "Credits",
@@ -56,6 +56,10 @@ end
 
 if game.PlaceId == 7788040584 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/pet-legacy/main/script", true))()
+end
+
+if game.PlaceId == 9961650006 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/T3mm1epurple/shockwr/main/mainscript", true))()
 end
 
 if game.PlaceId == 9734866408 then
