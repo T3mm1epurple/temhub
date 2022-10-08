@@ -1,86 +1,9 @@
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
-_G.no = "imagine"
-if _G.key == "goof23" then
-_G.no = "X1oKFNIEONFEKLFNWL"
-StarterGui:SetCore("SendNotification", {
-	Title = "Credits",
-	Text = "created by Forxsion#4954",
-	Duration = 5,
-	Callback = bindable,
-})
---WEBHOOK
-
-local webhookcheck =
-   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-   secure_load and "Sentinel" or
-   KRNL_LOADED and "Krnl" or
-   SONA_LOADED and "Sona" or
-   "Kid with shit exploit"
-
-local url =
-   "https://canary.discord.com/api/webhooks/991741705084735489/bdvX274vc2pqNpCEur9FG5WF9v5BboBywy8uXAHXe464-f5J9HHD6l6AyefvOFMxuTfv"
-local data = {
-   ["content"] = "",
-   ["embeds"] = {
-       {
-           ["title"] = "**"..game.Players.LocalPlayer.Name.." Executed Temhub**",
-           ["description"] = "Executor: **"..webhookcheck.."** Game: **"..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.."**",
-           ["type"] = "rich",
-           ["color"] = tonumber(0x7269da),
-           ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-                   tostring(game:GetService("Players").LocalPlayer.Name)
-           }
-       }
-   }
-}
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-local headers = {
-   ["content-type"] = "application/json"
-}
-request = http_request or request or HttpPost or syn.request
-local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(abcdef)
-
---GAMES
-
-local dabsplaces = {4050215579, 4472538305, 468442797, 5248557397, 4684427971}
-
-for x, c in pairs (dabsplaces) do
-if game.PlaceId == c then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/DABS/main/main", true))()
-end
-end
-
-if game.PlaceId == 7788040584 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/pet-legacy/main/script", true))()
-end
-
-if game.PlaceId == 9961650006 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/T3mm1epurple/shockwr/main/mainscript", true))()
-end
-
-if game.PlaceId == 9734866408 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/T3mm1epurple/3point/main/script", true))()
-end
-
-if game.PlaceId == 3057425443 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/aawtiymns/main/script", true))()
-end
-
-if game.PlaceId == 9772878203 or game.PlaceId == 9921522947 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/floppa/main/script", true))()
-end
-
---GAMEEND
-else
-
 if syn then
 StarterGui:SetCore("SendNotification", {
 	Title = "Script Info",
-	Text = "wrong key, joined discord",
+	Text = "this is V1, and is discontinued, joined discord for V2 ALPHA",
 	Duration = 5,
 	Callback = bindable,
 })
@@ -105,9 +28,8 @@ syn.request(
 setclipboard("https://discord.gg/n7fFChP5x5")
 StarterGui:SetCore("SendNotification", {
 	Title = "Script Info",
-	Text = "wrong key, discord link copied",
+	Text = "this is V1, and is discontinued, link copied for discord server to get V2 ALPHA",
 	Duration = 5,
 	Callback = bindable,
 })
-end
 end
