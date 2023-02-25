@@ -3,7 +3,7 @@ local bindable = Instance.new("BindableFunction")
 if syn then
 StarterGui:SetCore("SendNotification", {
 	Title = "Script Info",
-	Text = "this is V1, and is discontinued, joined discord for V2 ALPHA",
+	Text = "this is V1, and is discontinued, joined discord for V3",
 	Duration = 5,
 	Callback = bindable,
 })
